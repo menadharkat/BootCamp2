@@ -21,23 +21,23 @@ public class TestAccount extends CommonAPI {
 
     @Test
     public void testSetRegister(){
-        account.setRegister("Daljeet", "Alli");
+        account.setRegister("menad", "harkat");
     }
     @Test
     public void testLoginDetails(){
-        account.loginDetails("Sohan", "Sohan123");
+        account.loginDetails("akli", "Sdjebra");
     }
     @Test
     public void testLoginDetails1(){
-        account.loginDetails("Jannat", "Jannat123");
+        account.loginDetails("massi", "djada");
     }
     @Test
     public void testLoginDetails2(){
-        account.loginDetails("Jeff", "Jeff123");
+        account.loginDetails("Jeff", "pass123");
     }
     @Test
     public void testLoginDetails3(){
-        account.loginDetails("Winsen", "Winsen123");
+        account.loginDetails("menad", "menadn123");
     }
     @Test
     public void testLoginDetails4(){

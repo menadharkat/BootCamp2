@@ -17,16 +17,16 @@ public class AutosuggestionTest extends CommonAPI {
     @Test
     public void setDealsTest(){
         autosuggestion.setDeals();
-        sleepFor(2);
+        sleepFor(3);
         autosuggestion.setDetails();
-        sleepFor(2);
+        sleepFor(3);
         autosuggestion.setVerify();
-        sleepFor(2);
-        autosuggestion.setEmail("Jeff@Selenium.com");
-        sleepFor(2);
-        autosuggestion.setPass("Djafar");
-        sleepFor(2);
+        sleepFor(3);
+        autosuggestion.setEmail("menad@gmail.com.com");
+        sleepFor(3);
+        autosuggestion.setPass("menad");
+        sleepFor(3);
         autosuggestion.setSubmit();
-        sleepFor(2);
+        sleepFor(3);
     }
 }

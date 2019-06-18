@@ -34,8 +34,8 @@ public class Citi extends CommonAPI {
 
     //Sign In
     public void signIn(){
-        username.sendKeys("ytpromo75@gmail.com");
-        password.sendKeys("850568", Keys.ENTER);
+        username.sendKeys("menadharkat@gmail.com");
+        password.sendKeys("pass123", Keys.ENTER);
 
     }
 

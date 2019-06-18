@@ -18,7 +18,7 @@ public class VerifyItemTest extends CommonAPI {
 
     @Test
     public void setVerifyItemTest(){
-        verifyItem.setSerachfield("soccer ball");
+        verifyItem.setSerachfield("guitare godin");
         sleepFor(2);
         verifyItem.setSubmit();
         sleepFor(2);

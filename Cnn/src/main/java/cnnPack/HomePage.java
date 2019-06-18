@@ -64,7 +64,7 @@ public class HomePage extends CommonAPI {
     }
     public void setSearchnews(){
         searchbutton.click();
-        searchfield.sendKeys("NewYorkNews");
+        searchfield.sendKeys("United state");
         sleepFor(2);
         submitbutton.click();
         sleepFor(3);

@@ -18,18 +18,18 @@ public class BrowseProductTest extends CommonAPI {
     public void setSerachfieldTest(){
 
         browseProduct.setSerachfield();
-        browseProduct.setSearchfield1("sun glasses fashion men");
+        browseProduct.setSearchfield1("guitare godin");
         browseProduct.setSearch();
-        sleepFor(2);
+        sleepFor(3);
         browseProduct.setGlasses();
         sleepFor(2);
         browseProduct.setAddcart();
         sleepFor(2);
         browseProduct.setCheckout();
         sleepFor(2);
-        browseProduct.setEmail("Jeff@Selenium.com");
+        browseProduct.setEmail("menad@gmail.com");
         sleepFor(2);
-        browseProduct.setPassword("Djafar");
+        browseProduct.setPassword("menad");
         sleepFor(2);
         browseProduct.setSubmit();
         sleepFor(2);

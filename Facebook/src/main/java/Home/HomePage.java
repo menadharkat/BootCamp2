@@ -60,7 +60,7 @@ public class HomePage extends CommonAPI {
         signIn();
         Actions actions = new Actions(driver);
         actions.doubleClick(search);
-        search.sendKeys("Daljeet",Keys.ENTER);
+        search.sendKeys("menad",Keys.ENTER);
         sleepFor(3);
         return driver.getTitle();
     }

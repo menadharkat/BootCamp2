@@ -61,8 +61,8 @@ public class HealthCoverage extends CommonAPI {
         quote.click();
         System.out.println(driver.getCurrentUrl());
         handleNewTab(driver);
-        firstname.sendKeys("Daljeet");
-        lastname.sendKeys("Alli");
+        firstname.sendKeys("menad");
+        lastname.sendKeys("harkat");
         icon.click();
         years.click();
         years.click();

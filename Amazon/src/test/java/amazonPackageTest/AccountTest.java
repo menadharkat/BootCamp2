@@ -17,9 +17,9 @@ public class AccountTest extends CommonAPI {
     @Test(enabled = false)
     public void setSigninTest(){
         account.setSignin();
-        account.setEmail("Jeff@selenium.com");
+        account.setEmail("menad@gmail.com");
         sleepFor(3);
-        account.setPass("SeleniumAutomation");
+        account.setPass("pass123");
         sleepFor(3);
         account.setSignbutton();
         sleepFor(2);
@@ -27,7 +27,7 @@ public class AccountTest extends CommonAPI {
 
     @Test(enabled = true)
     public void setSigni2Test(){
-        account.setSigni2("jeff","menad");
+        account.setSigni2("menad","akli");
     }
 
 }
