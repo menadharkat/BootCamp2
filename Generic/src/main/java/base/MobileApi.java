@@ -28,7 +28,7 @@ public class MobileApi {
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/djafarouldslimane/Documents/BootCampAutomation/Generic/src/main/resources/APK/New York Post for Phone_v3.1.9_apkpure.com.apk");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/djafarouldslimane/Documents/BootCampAutomation/Generic/src/main/resources/APK/New York Post for Tablet_v3.1.495-GooglePlay_apkpure.com.apk");
             appiumDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
 
         } else {

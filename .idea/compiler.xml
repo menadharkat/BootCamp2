@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NYPost" />
         <module name="Amazon" />
         <module name="Facebook" />
         <module name="Cnn" />
         <module name="Generic" />
         <module name="Cigna" />
-        <module name="WhatsApp" />
         <module name="Citibank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Generic2" target="1.5" />
       <module name="Whatsapp" target="1.5" />
+      <module name="WhatsApp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
